@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"></script>
+    <link rel="icon" href="ty-logo.png">
+    <link rel="stylesheet" href="map-styles.css">
+    <title>Environmental Health Map Miami</title>
+</head>
+  <body>
+      <div class="container-fluid">
+          
+        <div class="row-xs m-5 pb-5">
+            <div class="row-xs m-5 pt-5">
+            <div class="row-xs m-5">
+              <h1 class="text-left m-4" style="font-size:5.25rem;">EJ Miami-Dade</h1>
+                  <div id="description-img">
+                      <h2 id="desc">Designing and developing an interactive map showing
+                      environmental health and justice issues in Miami.</h2>
+                      <img id="logos" src="miami-logos.png"></img>
+                    </div>
+                  </div>
+                  <div class="row-xs m-5" id="solution">
+                    <img id="map-main" src="map-sharp.png"></img>
+                    </div>
+            </h3>
+            </div>
+            </div>
+            <div class="row mt-5 pt-2 mx-5 px-5">  
+              <div class = "col-sm mx-5" id="">
+                <h1>Project Problem and Context</h2>
+                  <h2 id="mid-header">Context</h3>
+                  <p>I designed and developed this project in the Fall of 2022 for the UMiami Center of Ethics and Public Service in support of their civil rights lawsuit over resegregation practices in the West Grove neighborhood of Miami-Dade County. EJ Miami-Dade is an interactive map that allows city residents, judges, and policymakers to see different environmental and public health conditions and socioeconomic factors on a neighborhood tract level, and specifically, see that environmental and public health outcomes are worse in marginalized communities.
+                  </p>
+                  <p><span class="head-sect"><b>Timeline:</b> </span> 10 weeks (September - November 2022)</p>
+                  <p><span class="head-sect"><b>Team Size:</b> </span>1
+                    <p><span class="head-sect"><b>Role:</b> </span>Sole Designer and Developer
+                    <h2 id="mid-header">Design Problem</h3>
+                    <p>During my research and interviews with community partners at UMiami, I found that <b>residents, judges, and policymakers aren’t aware of differential environmental neighborhood conditions</b> because of a lack of data literacy and the shortcomings of existing data presentations
+                    <h2 id="mid-header">Design Solution:</h2>
+                    <p>An interactive map that allows users to search and explore environmental, health, and socioeconomic factors across Miami-Dade county. The product is live right now at <a href="https://www.environmentaleq.com/" target="_blank">this website</a>.
+                  </p>
+                  <img id="map-img" src="map-solution.png"></img>
+                </div>
+            </div>
+
+                </div>
+            <div class="row mt-5 mx-5 px-5">  
+              <div class = "col-sm mx-5 mt-1">
+                <h1>Design Process</h1>
+                <div style="padding-top:1.5rem; padding-bottom:1.5rem">
+                <h2>Key Objectives</h2>
+                <div class="center">
+                <img style="padding-top: 1rem; width:30rem;" src="goals.png">
+                </div>
+                </div>
+                <h2 id="mid-header">Research and Partner Interviews</h3>
+                  <p>From discussions with the community partners at the UMiami Center of Ethics and Public Service and research on existing data visualizations, an interactive map emerged as the best solution to the problem. Static maps and graphs aren’t effective at demonstrating data granularly, something the community partners emphasized in the interviews. 
+                    <br><br>I also found <a target="_blank" href="https://www.opportunityatlas.org/">The Opportunity Atlas</a> as a precedent for a visualization with data similar to that I needed to show. </p>
+                    <h2 id="mid-header">Iterative Process</h3>
+                      <p>Even while time was severely constrained due to the need to both design and develop the product in 10 weeks, I still was able to use an iterative approach to the design, as shown below:</p>
+                      <ol>
+                        <li><b>1)</b> Product sketching<br>
+                        <li><b>2)</b> Feedback on sketches</li>
+                        <li><b>3)</b> Hi-Fi Mockups based on feedback</li>
+                        <li><b>4)</b> User feedback on mockups</li>
+                        <li><b>5)</b> Development of initial product (<a href="https://tphamswann.github.io/Miami-Map-Alpha-Release/map.html">visible here</a>)</li>
+                        <li><b>6)</b> User testing and feedback from community partners at UMiami</li>
+                        <li><b>7)</b> Development of final product</li>
+                      </ol>
+                      <h2 id="mid-header">Design Choices and Iterations</h2>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Page Design</h5>
+                          <div class="col">
+                        <div class="center"><img src="window-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="window-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (2) Feedback on sketches</p>
+                      <p><b>Change:</b> Made the map take up the entire page instead of being just a section.</p>
+                      <p><b>Rationale and Alternatives:</b> People critiquing the sketches vastly preferred a design where the map took up the entire screen instead of just a small section of it. This makes sense as using the map is the main purpose of the site, so any extra information is extraneous.</p>
+                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Information Display</h5>
+                          <div class="col">
+                        <div class="center"><img src="info-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="info-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (2) Feedback on sketches</p>
+                      <p><b>Change:</b> Added an information display that pops up when a user clicks on or searches for a tract</p>
+                      <p><b>Rationale and Alternatives:</b> Someone critiquing the sketches suggested that more information being displayed when a user clicks on a specific neighborhood. This aligns with one of the main purposes of the map to allow users to see conditions in their neighborhood.</p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Map Legend</h5>
+                          <div class="col">
+                        <div class="center"><img src="legend-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="legend-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (2) Feedback on sketches</p>
+                      <p><b>Change:</b> Made the map legend continuous rather than discrete.</p>
+                      <p><b>Rationale and Alternatives:</b> A few people critiquing the sketches suggested that continuity of the data would be a more compelling representation. Later in the design process, when developing a hi-fi mockup it become apparent that this was a better approach.</p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Sidebar Location</h5>
+                          <div class="col">
+                        <div class="center"><img src="bar-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="bar-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (4) Feedback on mockups</p>
+                      <p><b>Change:</b> Moved the side panel from the left side of the screen to the right.</p>
+                      <p><b>Rationale and Alternatives:</b> Users interacting with the hi-fi mockup of the product preferred the panel on the left side of the screen to the right. One user articulated that they were more used to map panels being on the left, like with Google Maps. This suggestion made sense as most people that have used interactive maps have a mental model of a panel on the left side of the map.</p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Sidebar Design</h5>
+                          <div class="col">
+                        <div class="center"><img src="color-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="color-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (4) Feedback on mockups</p>
+                      <p><b>Change:</b> Switched the style of the side panel to a white background with blue, green, and black text.</p>
+                      <p><b>Rationale and Alternatives:</b> Users hated the blue color scheme and other dark color schemes a lot. When shown many different potential color schemes the white one performed the best by far.</p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Map Design</h5>
+
+                          <div class="col">
+                        <div class="center"><img src="map-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="map-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (4) Feedback on mockups</p>
+                      <p><b>Change:</b> Used a light map style instead of a dark one</p>
+                      <p><b>Rationale and Alternatives:</b> When shown a light and dark version of the map, all people prefered the light version, as with the sidebar.</p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Toggle Button Design</h5>
+                          <div class="col">
+                        <div class="center"><img src="button-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="button-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (6) User testing and feedback from community partners at UMiami</p>
+                      <p><b>Change:</b> Added affordances to layer toggle buttons including a blue outline on selection and a gray outline and cursor switch to a pointer on hover.</p>
+                      <p><b>Rationale and Alternatives:</b> In user testing it became obvious that the simple bold and normal button styles did not make it clear to users that they could switch between layers. The final design includes affordances to make the functionality more intuitive. </p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Popup Style</h5>
+                          <div class="col">
+                        <div class="center"><img src="popup-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="popup-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (6) User testing and feedback from community partners at UMiami</p>
+                      <p><b>Change:</b> Added more information to the popup including census tract and county information.</p>
+                      <p><b>Rationale and Alternatives:</b> Community partners suggested including more location-specific information on the popups. Feedback made sense as this served on of the primary goals of the map to allow users to explore factors in their specific neighborhood.</p></div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Outline Style</h5>
+                          <div class="col">
+                        <div class="center"><img src="outline-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="outline-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (6) User testing and feedback from community partners at UMiami</p>
+                      <p><b>Change:</b> Switch outline from black to white and black.</p>
+                      <p><b>Rationale and Alternatives:</b> In the first release of the map, it was sometimes difficult to see the outline when it was one tracts with darker colors. This adjustment makes it visible on tracts of all colors. </p>                        </div>
+
+                        <div class="row px-5 mt-5" id="lol">
+                          <h5 style="margin-bottom:2rem">Point Style</h5>
+                          <div class="col">
+                        <div class="center"><img src="point-one.png" class="comparison-image">
+                        <p>(original)</p>
+                        </div>
+                      </div>
+
+                        <div class="col">
+                          <div class="center">
+                          <img src="point-two.png" class="comparison-image">
+                        <p>(final)</p>
+                        </div>
+                      </div>
+                      <p><b>Stage:</b> (6) User testing and feedback from community partners at UMiami</p>
+                      <p><b>Change:</b> Removed labels from points and changed colors</p>
+                      <p><b>Rationale and Alternatives:</b> Users complained when testing that the text on the points often made the screen unnecessarily crowded. Switching to a simpler design addresses this issue.</p>                        </div>
+                  </div>
+                  <div class="row mt-5 px-5">  
+                    <div class="row my-5 px-4">  
+                    <h1>Reflection</h1>
+                    <p style="padding-top:1rem"><b>Humility is essential.</b> In this project I found my own design assumptions to be constantly undermined in critiques and by users in product testing. Listening to users and advisors allowed this project to develop positively, a lesson that I will apply to the rest of my design work. <br><br>
+                      Additionally, throughout this project, I was forced to explore the tension between development and design and think about my own biases. As this was an independent project that I had to design and develop, I had to ensure that my own ideas about what would be feasible or easy to develop wouldn’t constrain the creation of the design. From this project I learned the importance in compartmentalizing these elements to ensure the best product is ultimately built. 
+                      </p>
+                      <div class="center">
+                    <h5><a target="_blank" href="https://www.environmentaleq.com/">Explore the final map</a></h5>
+                    <div class="row p-2">
+                      <img src="map-con.png" class="conclusion-image">
+                    </div>
+                    </div>
+                    </div>
+                  </div> 
+            </div>
+
+
+        </div>
+
+        
+        
+    
+      </div>
+
+
+      <p id="foot"><a href='index.html'>Return to Portfolio</a> | <a href='about.html'> About Me</a></p>
+
+  </body>
+
+</html>
+
+<!--Sources Cited: CVS, Sensodyne, Colgate, Visa, MasterCard used as references for hand drawn images-->
+
